@@ -1,0 +1,229 @@
+
+body {
+	font-size: 67.5%;
+    font-family: Tahoma, Geneva, sans-serif;
+	background-image: url('assets/CarnivalFreedom.jpg');
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+}
+h1 {
+	color: #2BA967;
+	font-size: 2.0em;
+}
+h2 {
+	color: #745b2f;
+	font-size: 1.7em;
+}
+#header-center {
+	text-align: center;
+}
+p {
+	font-size: 1.2em;
+	line-height: 1.4em;
+	color: #555;
+}
+ol {
+	font-size: 1.5em;
+}
+ol li {
+	margin: 0;
+	padding: 0 0 0.2em;
+}
+a, a:visited {
+	color: rgb(16, 31, 236);
+}
+a:hover {
+	color: #333;
+}
+.contentWrapper {
+	margin: 0 auto;
+}
+header {
+	padding: 2.5em 0 0.5em;
+	margin: 0 0 2.0em;
+	background: #39150C;
+ }
+header h1 {
+	font-family: "Times New Roman", Times, serif;
+	color: #28b82f;
+	font-size: 7.5em;
+	letter-spacing: -0.025em;
+	margin: 0;	
+}
+header h2 {
+	font-weight: 300;
+	font-size: 3.8em;
+	color: #2BA967;
+	margin: -0.4em 0 0 1.0em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+nav {
+	font-size: 1.2em;
+	letter-spacing: 0.04em;
+	padding: 1.0em 1.0em 0.5em;
+	margin: 1.0em 0 ;
+}
+nav img{
+	border-radius: 50%;
+	max-height: 30px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+}
+nav li a, nav li a:visited {
+	text-decoration: none;
+	color: rgb(205, 241, 45);
+	padding: 0.3em 0.6em;
+}
+nav li a:hover {
+	color: rgb(31, 208, 231);
+	background-color: rgba(252,251,243,0.75);
+}
+nav#utilityMenu {
+	margin: -1.5em 0 0 0;
+	padding: 0.35em;
+	height: 1.3em;
+}
+nav#utilityMenu li {
+	padding: 0 0.25em 0 0.2em;
+	vertical-align: middle;	
+}
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	height: 1.3em;
+	padding: 0.5em;
+	margin: -0.4em 0 0 0;
+	font-size: 0.8em;
+}
+nav#utilityMenu ul li.acctNav a.active {
+	background-color: #C64322;
+}
+nav#utilityMenu ul li.acctNav a:hover {
+	background-color: rgba(252,251,243,0.7);
+	color: #C64322;
+}
+nav#utilityMenu li a, nav#utilityMenu li a:visited { padding: 0;}
+nav#utilityMenu li a:hover { background-color: transparent;}
+nav#utilityMenu ul li input#search {
+	vertical-align: middle;
+	margin: 0 0 0 1.0em;
+}
+section.whiteBoard {
+	width: 50vw;
+	background-color: rgba(252,251,243,0.7);
+	margin: 0 3.0em;
+	padding: 1.5em  0 2.0em 1.5em;
+	display: inline-block;
+	border-radius: 2em;
+	box-shadow: 1px 1px 5px #777;/* offset-x | offset-y | blur-radius | color */
+}
+section div.panel{
+	display: inline-block;
+	position: relative;
+	width: 25%;
+	height: 100%;
+	margin: 0 0.5em 2.0em 0.5em;
+	padding: 1.0em;
+	background-color: #fff;
+	border: #ccc solid 1px;
+	border-radius: 0.6em;
+	vertical-align: top;
+}
+section div.panel img.styling {
+	width: 100%;
+}
+section#sidebar-left p {
+	color: yellow;
+}
+section#sidebar-left h1 {
+	color: white;
+}
+section#sidebar-left h2 {
+	color: whitesmoke;
+}
+section#sidebar-right p {
+	color: yellow;
+}
+section#sidebar-right h1 {
+	color: white;
+}
+section#sidebar-right h2 {
+	color: whitesmoke;
+}
+section#sidebar-left {
+	width: 18vw;
+	float: left;
+	position: relative;
+	display: block;
+	background-color: rgb(42, 117, 32, 0.9);
+	margin: 0 0 0 1.5em;
+	padding: 1.7em 0.5em 2.0em 1.7em;
+	border-right: #2BA967 solid 5px;
+}
+section#sidebar-right {
+	width: 18vw;
+	float: right;
+	position: relative;
+	display: block;
+	background-color: rgb(42, 117, 32, 0.9);
+	margin: 0 1.5em 0 0;
+	padding: 1.7em 0.5em 2.0em 1.7em;
+	border-left: #2BA967 solid 5px;
+}
+footer {
+	background-color: #40362f;
+	height: auto;
+	font-size: 1.5em;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding: 0.5em 2.0em;
+}
+footer ul#menuFooter {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 0 0.6em;
+	padding: 0;
+}
+footer p {
+	font-size: 1.0em;
+	color: lightgreen;
+}
+footer ul li {
+	display: inline-block;
+	padding: 0 0.7em 0 0;
+	margin: 0;
+}
+footer ul li::before {
+	content: "| ";
+	padding-right: 0.7em;
+}
+footer a, footer a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+button {
+	color: #C64322;
+	background-color: #FFF;
+	display: inline-block;
+	margin: 0 0.75em 0 0;
+	padding: 0.2em 0.5em;
+	border: 1px solid #C64322;
+	text-transform: uppercase;
+}
+button:hover {
+	background-color: #FBF3DB;
+	border: 1px solid #745b2f;
+}
